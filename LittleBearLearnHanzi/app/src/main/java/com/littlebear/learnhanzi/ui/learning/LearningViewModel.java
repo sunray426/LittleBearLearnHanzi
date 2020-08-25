@@ -8,6 +8,7 @@ import androidx.lifecycle.LiveData;
 
 import com.littlebear.learnhanzi.LittleBearUtils;
 import com.littlebear.learnhanzi.db.LittleBearRepository;
+import com.littlebear.learnhanzi.db.ProgressConfig;
 import com.littlebear.learnhanzi.db.StudyRecord;
 
 import org.json.JSONArray;
@@ -25,6 +26,8 @@ public class LearningViewModel extends AndroidViewModel {
     private LittleBearRepository repository;
 
     private boolean bookIsFinshed = false;
+
+    private ProgressConfig config = ProgressConfig.getConfig(getApplication());
 
     private LittleBearUtils utils;
 
@@ -70,17 +73,10 @@ public class LearningViewModel extends AndroidViewModel {
 
     //从配置文件读取需要学习的时间
     private void getStudyTimeFromConfig() {
-        String strConfig = utils.buildStringFromAssetFile(utils.configFile);
 
-        try {
-            configJO = new JSONObject(strConfig.toString());
-            dailyStudyTime = configJO.getDouble("dailyStudyTime");
-            newTime = configJO.getDouble("newTime");
-            reviewTime = configJO.getDouble("reviewTime");
-
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        dailyStudyTime = config.getDailyStudyTime();
+        newTime = config.getNewTime();
+        reviewTime = config.getReviewTime();
 
     }
 

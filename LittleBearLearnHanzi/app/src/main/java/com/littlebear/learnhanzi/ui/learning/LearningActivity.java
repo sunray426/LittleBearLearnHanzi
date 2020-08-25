@@ -69,7 +69,7 @@ public class LearningActivity extends AppCompatActivity implements OnFragmentUpd
         currentLesson = (Lesson) bundle.getSerializable("lesson");
 
         //String message = intent.getStringExtra(BeginLearningFragment.EXTRA_MESSAGE);
-
+/*
         mViewModel = new ViewModelProvider(this).get(LearningViewModel.class);
 
         mViewModel.getRecords().observe(this, new Observer<List<StudyRecord>>() {
@@ -94,7 +94,7 @@ public class LearningActivity extends AppCompatActivity implements OnFragmentUpd
                 }
             }
         });
-
+*/
 
 //        Button nextBtn = findViewById(R.id.next);
 //        nextBtn.setOnClickListener(new View.OnClickListener() {
