@@ -1,0 +1,23 @@
+{
+    "hanzi": {
+        "character": "奈",
+        "pinyin": [
+            [
+                "nài"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "无可奈何",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "乌鸦无可奈何地摇摇头，这时它忽然发现附近有一个瓶子，里面还有半瓶水。",
+            "voices": []
+        }
+    ]
+}

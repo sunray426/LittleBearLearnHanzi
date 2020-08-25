@@ -1,0 +1,27 @@
+{
+    "hanzi": {
+        "character": "亚",
+        "pinyin": [
+            [
+                "yà"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "维多利亚港",
+            "pronunciation": null
+        },
+        {
+            "characters": "维多利亚",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "站在山上向北望去，维多利亚港北边是九龙半岛，南边是香港岛，两岸高楼林立。",
+            "voices": []
+        }
+    ]
+}

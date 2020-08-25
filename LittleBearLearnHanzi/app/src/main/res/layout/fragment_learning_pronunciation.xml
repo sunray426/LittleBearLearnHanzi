@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.littlebear.learnhanzi.ui.learning.LearningFragment_pronoumciation">
+ <!--
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="300dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+        -->
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:id="@+id/knownWord"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button_style"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/record" />
+
+    <Button
+        android:id="@+id/unknownWord"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/round_button_style"
+        android:gravity="center"
+        android:text="不认识"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+<!--
+    <Button
+        android:id="@+id/ignorIt"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/round_button_style"
+        android:gravity="center"
+        android:text="跳过"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+-->
+
+</LinearLayout>

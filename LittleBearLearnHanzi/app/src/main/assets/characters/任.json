@@ -1,0 +1,23 @@
+{
+    "hanzi": {
+        "character": "任",
+        "pinyin": [
+            [
+                "rèn"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "首任",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "首任行政长官是董建华。",
+            "voices": []
+        }
+    ]
+}

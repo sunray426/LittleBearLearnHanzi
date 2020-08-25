@@ -1,0 +1,37 @@
+{
+    "characters":[
+        {
+        	"hanzi":{"character":"附","pinyin":"fu4","pronunciation":none},
+        	"words":[
+        		{"characters":"附近", "pronounciation":null},
+        		{"characters":"附加", "pronounciation":null}
+        	],
+        	"sentences":[
+        		{"text":"星期天妈妈常常带我去附近的公园写生", "voices":[]}
+        	]
+        },
+        {
+        	"hanzi":{"character":"显","pinyin":"xian3","pronunciation":null},
+        	"words":[
+        		{"characters":"显示", "pronounciation":null},
+        		{"characters":"显然", "pronounciation":null},
+        		{"characters":"显眼", "pronounciation":null}
+        	],
+        	"sentences":[
+        		{"text":"这件事充分\n显示了他的才能。", "voices":[]},
+        		{"text":"这件事显然他是对的。", "voices":[]}
+        	]
+        },	
+        {
+        	"hanzi":{"character":"格","pinyin":"ge2","pronunciation":null},
+        	"words":[
+        		{"characters":"格外", "pronounciation":null},
+        		{"characters":"格子", "pronounciation":null},
+        		{"characters":"表格", "pronounciation":null},
+        		{"characters":"方格", "pronounciation":null},
+        		{"characters":"米字格", "pronounciation":null}
+        	],
+        	"sentences":[]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_learning"
+    app:startDestination="@id/learningFragment_new">
+    <fragment
+        android:id="@+id/learningFragment_new"
+        android:name="com.littlebear.learnhanzi.ui.learning.LearningFragment_new"
+        android:label="fragment_learning_new"
+        tools:layout="@layout/fragment_learning_new" >
+        <action
+            android:id="@+id/action_learningFragment_to_fragment_meaning"
+            app:destination="@id/learningFragment_meaning" />
+    </fragment>
+    <fragment
+        android:id="@+id/learningFragment_meaning"
+        android:name="com.littlebear.learnhanzi.ui.learning.LearningFragment_meaning"
+        android:label="fragment_learning_meaning"
+        tools:layout="@layout/fragment_learning_meaning" />
+</navigation>

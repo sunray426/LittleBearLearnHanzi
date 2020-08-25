@@ -1,0 +1,23 @@
+{
+    "hanzi": {
+        "character": "备",
+        "pinyin": [
+            [
+                "bèi"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "准备",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "乌鸦很高兴，准备痛痛快快地喝个饱。",
+            "voices": []
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "hanzi": {
+        "character": "塔",
+        "pinyin": [
+            [
+                "tǎ"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "电视塔",
+            "pronunciation": null
+        },
+        {
+            "characters": "塔高",
+            "pronunciation": null
+        },
+        {
+            "characters": "高塔",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "最引人注目的是“东方明珠”电视塔，塔高468米。",
+            "voices": []
+        }
+    ]
+}

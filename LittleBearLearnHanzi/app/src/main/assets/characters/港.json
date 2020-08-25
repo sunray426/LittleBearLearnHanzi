@@ -1,0 +1,39 @@
+{
+    "hanzi": {
+        "character": "港",
+        "pinyin": [
+            [
+                "gǎng"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "香港",
+            "pronunciation": null
+        },
+        {
+            "characters": "港岛",
+            "pronunciation": null
+        },
+        {
+            "characters": "维多利亚港",
+            "pronunciation": null
+        },
+        {
+            "characters": "香港岛",
+            "pronunciation": null
+        },
+        {
+            "characters": "港人治港",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "香港是现代化的国际大都市，被称为“东方之珠”，是世界著名的金融、航运中心，也是有名的旅游胜地。",
+            "voices": []
+        }
+    ]
+}

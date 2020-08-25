@@ -1,0 +1,8 @@
+{
+	"newTime": 3,
+	"reviewTime": 1.5,
+	"dailyStudyTime": 45,
+	"textbookNo": 0,
+	"finished": false,
+	"progress": {"lessonNo": 2, "characterNo": 15}
+}

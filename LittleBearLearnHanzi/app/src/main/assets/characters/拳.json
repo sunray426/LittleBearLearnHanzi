@@ -1,0 +1,23 @@
+{
+    "hanzi": {
+        "character": "拳",
+        "pinyin": [
+            [
+                "quán"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "太极拳",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "很多人在这儿锻炼身体，有的做早操，有的打太极拳，还有的练气功，看上去他们都很精神、很健康。",
+            "voices": []
+        }
+    ]
+}

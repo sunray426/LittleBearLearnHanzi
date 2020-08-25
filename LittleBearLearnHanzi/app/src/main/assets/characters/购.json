@@ -1,0 +1,23 @@
+{
+    "hanzi": {
+        "character": "购",
+        "pinyin": [
+            [
+                "gòu"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "购物",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "从太平山上下来，舅舅又开车带我们在市区观光购物。",
+            "voices": []
+        }
+    ]
+}

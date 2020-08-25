@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">     
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@2.2/dist/hanzi-writer.min.js">   </script>
+    	<script src="d3.min.js" charset="utf-8"></script>   
+        <style type="text/css">
+            body{
+                margin-top: 0px;
+                margin-left: 0px;
+                padding: 0;
+				width:100%;
+                background-color: #E2E2E2;
+            }
+			
+			.hanzi-container svg {
+				display:inline-block;
+				text-align: center;
+				min-height: 100%;
+			
+			}
+			.zi{min-height:100%;}	
+            
+            svg.solid{ border: 4px solid #000;}
+        </style>
+                
+    </head>
+    
+    <body>
+	 
+       <div class='hanzi-container' id='hanzi-left'>
+        <svg class='zi' id='zi-1'>
+		</svg>
+        <svg class= 'zi' id='zi-2'>
+		</svg>
+       </div>
+	   
+       <div class = 'hanzi-container' id='hanzi-right'>
+        <svg class = 'zi' id='zi-3'>
+		</svg>
+        <svg class='zi' id='zi-4'>
+		</svg>
+       </div>
+	   
+	   <div id='pinyin'>
+		   
+	   </div>
+		    
+        
+        <script>
+		/* get url query*/
+			const queryString = window.location.search;
+			const urlParams = new URLSearchParams(queryString);
+			const zi = urlParams.get('zi');
+			console.log(zi);
+			const ci = urlParams.get('ci');
+			console.log(ci);
+		
+			
+			if(ci.startsWith(zi)){
+			/*draw tianzige*/	 
+			document.getElementById('hanzi-right').style.display = 'none';
+				document.getElementById('zi-1').style.width = '65%';
+				document.getElementById('zi-1').style.border = '4px solid #000';
+				document.getElementById('zi-2').style.width = '30%';
+				
+				drawCharacters('zi-1','zi-2');	
+				drawTianZiGe('zi-1');	
+			
+			}
+			else{
+				document.getElementById('hanzi-left').style.display = 'none';
+				document.getElementById('zi-4').style.width = '65%';
+				document.getElementById('zi-4').style.border = '4px solid #000';
+				document.getElementById('zi-3').style.width = '30%';
+				
+				drawCharacters('zi-3','zi-4');
+				drawTianZiGe('zi-4');	
+			}
+        
+			function drawTianZiGe(id){
+				var size = document.getElementById(id).clientWidth;			
+				var half_size = size / 2;
+    		    console.log(size);
+				
+				svg = d3.select('#'+id);  
+				console.log(svg);   			
+		    	svg.append("line")
+					.attr("x1", half_size)
+		    		.attr("y1", 0)
+		    		.attr("x2", half_size)
+		    		.attr("y2", size)
+		    		.attr("stroke","#000")
+		        	.attr("stroke-dasharray","4 4");
+				console.log(svg);
+				svg.append("line")
+					    .attr("x1", 0)
+					    .attr("y1", half_size)
+					    .attr("x2", size)
+					    .attr("y2", half_size)
+					    .attr("stroke","#000")
+					    .attr("stroke-dasharray","4 4");
+			}
+					
+		
+		
+		/* write character*/
+			function drawCharacters(id1,id2){
+                writer = HanziWriter.create(id1, ci.substring(0,1), {
+   				 width: document.getElementById(id1).clientWidth,
+                                   height: document.getElementById(id1).clientWidth,
+                                   strokeColor:'#FF0000',
+                                   padding: 5
+                                   });
+   			 writer = HanziWriter.create(id2, ci.substring(1,2), {
+   				 width: document.getElementById(id2).clientWidth,
+                                   height: document.getElementById(id2).clientWidth,
+   								  strokeColor:'#FF6060',
+   								  padding: 5
+   				                                   });
+				
+			}
+           
+        </script>
+        
+        
+    </body>
+</html>
+
+

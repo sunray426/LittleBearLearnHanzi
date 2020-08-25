@@ -1,0 +1,27 @@
+{
+    "hanzi": {
+        "character": "区",
+        "pinyin": [
+            [
+                "qū"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "行政区",
+            "pronunciation": null
+        },
+        {
+            "characters": "市区",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "”姨妈接着说：“香港现在是中国的一个特别行政区，实行一国两制，港人治港，高度自治。",
+            "voices": []
+        }
+    ]
+}

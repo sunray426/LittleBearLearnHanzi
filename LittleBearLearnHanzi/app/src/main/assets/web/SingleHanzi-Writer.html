@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">     
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="d3.min.js" charset="utf-8"></script>        
+        <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@2.2/dist/hanzi-writer.min.js">   </script>
+    
+        <style type="text/css">
+            body{
+                margin-top: 0px;
+                margin-left: 0px;
+                padding: 0;
+                background-color: #FFFFFF;
+            }
+        
+            svg.solid{ border: 2px solid #000;}
+            
+            #character-writer{display: block; margin: auto;}
+            
+            #fangge{
+            	text-align: center;
+            }
+            
+        </style>
+                
+    </head>
+    
+    <body>
+ 
+    <div id = "fangge">
+    </div>
+    
+    </body>
+</html>
+
+
+ <script>
+ 	
+	var hanzi = getQuery("hanzi");	
+	var total = getQuery("total");
+	var completed = getQuery("completed");	
+		
+	main_draw(hanzi, total, completed);  
+  
+
+    function getQuery(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return decodeURI(r[2]); return null;
+    }       
+    
+    function main_draw(hanzi, total, completed) {
+    	 drawTianziges(total, completed);
+    	 drawCharWriter(hanzi, total, completed);
+	}
+    
+    function drawTianziges(total, completed) {
+    	var i = 0;
+		var size = 72;
+		var half_size = size / 2;
+    	
+    	for (i = 0; i < total; i++) {
+			svg = d3.select("#fangge")
+	            .append("svg")
+	            .attr("width", size)
+	            .attr("height",size)
+	            .attr("class","solid")
+	            .attr("id","mySvg" + i);
+	                  
+	        svg.append("line")
+		    	.attr("x1", half_size)
+		    	.attr("y1", 0)
+		    	.attr("x2", half_size)
+		    	.attr("y2", size)
+		    	.attr("stroke","#000")
+		        .attr("stroke-dasharray","4 4");
+		        
+		    svg.append("line")
+		    	.attr("x1", 0)
+		    	.attr("y1", half_size)
+		    	.attr("x2", size)
+		    	.attr("y2", half_size)
+		    	.attr("stroke","#000")
+		        .attr("stroke-dasharray","4 4");
+	    }
+	    
+	    for (i = 0; i < completed; i++) {
+	    	HanziWriter.create('mySvg'+i, hanzi, {
+	                width: size,
+		            height: size,
+		            strokeColor:'#ff0000',
+		            padding: 5
+		    });	
+		}
+    }
+    function drawCharWriter(hanzi, total, completed) {
+    	var size = 300;
+		var half_size = size / 2;
+		   
+    	svg = d3.select("body")
+            .append("svg")
+            .attr("width", size)
+            .attr("height",size)
+            .attr("class","solid")
+            .attr("id","character-writer");
+            
+       svg.append("line")
+	    	.attr("x1", half_size)
+	    	.attr("y1", 0)
+	    	.attr("x2", half_size)
+	    	.attr("y2", size)
+	    	.attr("stroke","#000")
+	        .attr("stroke-dasharray","4 4");
+	        
+	    svg.append("line")
+	    	.attr("x1", 0)
+	    	.attr("y1", half_size)
+	    	.attr("x2", size)
+	    	.attr("y2", half_size)
+	    	.attr("stroke","#000")
+	        .attr("stroke-dasharray","4 4");
+	     
+	    writer = HanziWriter.create('character-writer', hanzi, {
+                width: size,
+	            height: size,
+	            showCharacter: false,
+	            showHintAfterMisses: 2,
+	            strokeColor:'#ff0000',
+	            padding: 5
+	        });
+	        
+	    quiz(hanzi, total, completed);
+    }
+    
+    function quiz(hanzi, total, completed) {
+    	var size = 72;
+		var half_size = size / 2;
+		var numOfShowOutlines = 3;
+	    writer.quiz({
+			onComplete: function(summaryData) {
+				console.log("completed = "+completed);
+			  	HanziWriter.create('mySvg'+completed, hanzi, {
+	                width: size,
+		            height: size,
+		            strokeColor:'#ff0000',
+		            padding: 5
+		        });	
+		        completed ++;
+		        
+		        if (completed == numOfShowOutlines) {
+		        	writer.hideCharacter();
+		        	writer.hideOutline();
+		        }
+		        
+		       	if (completed < total) {
+			       	quiz(hanzi, total, completed);
+			       	//Android.updateNumOfWrited("-1");
+			    } else {
+			    	//Android.updateNumOfWrited(completed);
+			    }
+			}
+		});
+    }
+          
+ </script>

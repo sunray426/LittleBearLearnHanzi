@@ -1,0 +1,371 @@
+{
+	"book_id": 7,
+	"lesson_id": 5,
+	"characters": [
+		{
+			"hanzi": {
+				"character": "袋",
+				"pinyin": [
+					[
+						"dài"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "口袋书",
+					"pronunciation": null
+				},
+				{
+					"characters": "口袋",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "东郭先生赶着驴在路上走，驴背上驮着一口袋书。",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "猎",
+				"pinyin": [
+					[
+						"liè"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "打猎",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "打猎的骑着马追来了，让我在你的口袋里躲一躲吧！",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "骑",
+				"pinyin": [
+					[
+						"qí"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "骑着马",
+					"pronunciation": null
+				}
+			],
+			"sentences": []
+		},
+		{
+			"hanzi": {
+				"character": "躲",
+				"pinyin": [
+					[
+						"duǒ"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "躲",
+					"pronunciation": null
+				}
+			],
+			"sentences": []
+		},
+		{
+			"hanzi": {
+				"character": "永",
+				"pinyin": [
+					[
+						"yǒng"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "永远",
+					"pronunciation": null
+				},
+				{
+					"characters": "永",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "我永远不会忘记你的。",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "怜",
+				"pinyin": [
+					[
+						"lián"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "可怜",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "”东郭先生看见狼那可怜的样子，想了想说：“好吧。",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "捆",
+				"pinyin": [
+					[
+						"kǔn"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "一捆",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "”东郭先生把口袋里的书倒出来，让狼钻进口袋，又在口袋里放了一捆书，然后把口袋扎了起来，把它驮在了驴背上。",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "逃",
+				"pinyin": [
+					[
+						"táo"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "逃走",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "”东郭先生说：“没有啊，前面还有一条路，狼也许从那条路逃走了。",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "退",
+				"pinyin": [
+					[
+						"tuì"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "退边",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "东郭先生大吃一惊，边退边说：“你这无情无义的东西，真没良心 ！",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "良",
+				"pinyin": [
+					[
+						"liáng"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "没良心",
+					"pronunciation": null
+				}
+			],
+			"sentences": []
+		},
+		{
+			"hanzi": {
+				"character": "住",
+				"pinyin": [
+					[
+						"zhù"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "住",
+					"pronunciation": null
+				},
+				{
+					"characters": "记住",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "东郭先生急忙拉住老人，把事情的经过告诉了他，请他评评理。",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "评",
+				"pinyin": [
+					[
+						"píng"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "评评理",
+					"pronunciation": null
+				}
+			],
+			"sentences": []
+		},
+		{
+			"hanzi": {
+				"character": "压",
+				"pinyin": [
+					[
+						"yā"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "还压",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "狼就争着说：“他把我装进口袋里，上面还压了好多书，明明想整死我。",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "危",
+				"pinyin": [
+					[
+						"wēi"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "危险",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "这时候，老人对东郭先生说：“好危险啊！",
+					"voices": []
+				}
+			]
+		},
+		{
+			"hanzi": {
+				"character": "险",
+				"pinyin": [
+					[
+						"xiǎn"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "危险",
+					"pronunciation": null
+				}
+			],
+			"sentences": []
+		},
+		{
+			"hanzi": {
+				"character": "扎",
+				"pinyin": [
+					[
+						"zhā"
+					]
+				],
+				"pronunciation": null
+			},
+			"words": [
+				{
+					"characters": "扎",
+					"pronunciation": null
+				}
+			],
+			"sentences": [
+				{
+					"text": "东郭先生又把狼装进了口袋，把口袋扎了起来。",
+					"voices": []
+				}
+			]
+		}
+	],
+	"readings": [
+		{
+			"title": "东郭先生和狼",
+			"text": "东郭先生赶着驴在路上走，驴背上驮着一口袋书。\n忽然，后面跑来一只狼，慌慌张张地对东郭先生说：“好心的先生，救救我吧！打猎的骑着马追来了，让我在你的口袋里躲一躲吧！我永远不会忘记你的。”东郭先生看见狼那可怜的样子，想了想说：“好吧。”东郭先生把口袋里的书倒出来，让狼钻进口袋，又在口袋里放了一捆书，然后把口袋扎了起来，把它驮在了驴背上。\n打猎的追上来了，问东郭先生：“先生 ，刚才有只狼跑过来，您看见没有？”东郭先生说：“没有啊，前面还有一条路，狼也许从那条路逃走了。”打猎的一听，就向前追去了。\n过了一会儿，打猎的走远了，狼在口袋里喊：“先生，打猎的走远了吧？快放我出去吧。”东郭先生把狼从口袋里倒了出来。狼出来后，前后左右地看了看，说：“好心的先生，你既然救了我，那就再救我一次吧！我饿坏了，又没有别的东西吃，就让我吃了你吧！”狼一说完，就向东郭先生扑去。\n东郭先生大吃一惊，边退边说：“你这无情无义的东西，真没良心 ！”正在这时，来了一位老人。东郭先生急忙拉住老人，把事情的经过告诉了他，请他评评理。狼就争着说：“他把我装进口袋里，上面还压了好多书，明明想整死我。这样的人还不该吃吗？”老人想了想说：“你们的话我都不相信。这个口袋怎么装得进一只狼呢？”然后又对狼说：“我要看看你是怎么样被装进去的。”狼同意了。东郭先生又把狼装进了口袋，把口袋扎了起来。\n这时候，老人对东郭先生说：“好危险啊！以后要记住，千万不要可怜这样的坏东西。”"
+		},
+		{
+			"title": "狮子和蚊子",
+			"text": "狮子是兽中之王。动物们看见他都非常害怕，躲到一旁，不敢出声。和狮子相比，蚊子可小多了，谁都不把他放在眼里。有一次，狮子出来散步，别的动物都吓得躲开了，只有一只蚊子在他面前飞来飞去。狮子发火了，大声说：“滚开！别挡路！”说完，张开大嘴，吹了口气，蚊子被吹到地上，打了好几个滚儿。蚊子好不容易爬起来，问：“您想干什么？”狮子不讲理地说：“不想干什么，好玩。”蚊子受不了这个气，就说：“你别小看我，我要和你比个高低。”“什么？”狮子以为听错了，对蚊子说：“是你要和我比的，等我把你打得落花流水的时候，你别后悔。”蚊子说：“好，咱们就比一比吧！”说完，就朝狮子的背上咬去。狮子被咬了一口，赶紧用大尾巴去赶蚊子。蚊子飞快地躲开后，又飞到狮子的头上，死死地叮住狮子的脑门，不论狮子怎么摇头晃脑，也不松口。接着，蚊子又去咬狮子的耳朵和鼻子。狮子被蚊子咬得很难受，气得叫个不停。最后，他无可奈何地对蚊子说：“求求你，咱们讲和吧。”憎佴灶子很得意，说：“行啊，咱们和好吧。这一次我就放过你，不过你要记住：别欺负弱小者，他们不一定就是好欺负的！”"
+		}
+	]
+}

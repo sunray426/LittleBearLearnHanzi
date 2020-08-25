@@ -1,0 +1,7 @@
+{
+	"lessons":[
+		{"lesson_title": "第1课：在机场", "json": "lesson07-01.json"},
+		{"lesson_title": "第2课：游香港", "json": "lesson07-02.json"},
+		{"lesson_title": "第3课：逛外滩", "json": "lesson07-03.json"}
+	]
+}

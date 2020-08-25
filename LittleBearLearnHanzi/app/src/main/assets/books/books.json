@@ -1,0 +1,6 @@
+{
+	"books": [
+		{"book_title": "小学语文第七册-上", "dir": "books/grade7-spring"},
+		{"book_title": "小学语文第七册-下", "dir": "books/grade7-summer"},
+	]
+}

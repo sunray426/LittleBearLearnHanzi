@@ -1,0 +1,23 @@
+{
+    "hanzi": {
+        "character": "池",
+        "pinyin": [
+            [
+                "chí"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "池塘",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "小河、池塘和井里都干了，哪儿还有水呢？",
+            "voices": []
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "hanzi": {
+        "character": "先",
+        "pinyin": [
+            [
+                "xiān"
+            ]
+        ],
+        "pronunciation": null
+    },
+    "words": [
+        {
+            "characters": "首先",
+            "pronunciation": null
+        }
+    ],
+    "sentences": [
+        {
+            "text": "我们到达香港的第二天，舅舅开车带我们首先来到港岛的太平山上。",
+            "voices": []
+        }
+    ]
+}

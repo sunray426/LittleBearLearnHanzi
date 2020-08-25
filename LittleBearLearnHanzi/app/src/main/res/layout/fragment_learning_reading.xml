@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.littlebear.learnhanzi.ui.learning.LearningFragment_reading">
+
+    <TextView
+        android:id="@+id/readingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:textIsSelectable="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/readingText"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp"
+        android:lineSpacingMultiplier="2"
+        android:scrollbars="vertical"
+        android:layout_gravity="center"
+        android:textIsSelectable="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text=""
+        android:textSize="36dp" />
+
+</LinearLayout>
