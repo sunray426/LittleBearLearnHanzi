@@ -204,5 +204,13 @@
     <string name="play_button_message">我的录音</string>
     <string name="my_score_message">我的得分</string>
     <string name="show_pinyin_message">查看拼音</string>
+    <string name="app_title">小熊识字</string>
+    <string name="create_account">创建帐户</string>
+    <string name="other_login_options">或者</string>
+    <string name="use_google_login">用Google账号登录</string>
+    <string name="password">Password</string>
+    <string name="wechat_login">微信登录</string>
+    <string name="already_has_account">已有账户？登录</string>
+    <string name="email">电子邮箱</string>
 
 </resources>
